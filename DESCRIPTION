@@ -1,0 +1,44 @@
+Package: skimrID
+Type: Package
+Title: Enhanced Exploratory Data Analysis Tools Based on skimr
+Version: 0.1.0
+Authors@R:
+    c(
+      person(
+        given = "Siti Hana",
+        family = "Widati",
+        email = "sitihanawidati@gmail.com",
+        role = c("aut", "cre")
+      ),
+      person(
+        given = "Salma",
+        family = "Nurbayani",
+        role = "aut"
+      ),
+      person(
+        given = "Aninditya Cantika Putri",
+        family = "Ramadhani",
+        role = "aut"
+      )
+    )
+Description: skimrID is a derivative package developed from the original
+    skimr package to enhance exploratory data analysis workflows.
+    The package extends the functionality of skimr by providing
+    Indonesian-language descriptive summaries through skim_indo(),
+    extended descriptive statistics through skim_extended(),
+    and automatic data preprocessing through skim_preprocess().
+    The preprocessing function supports duplicate removal,
+    missing value imputation, outlier treatment using
+    Winsorization, and log transformation for highly skewed
+    variables, allowing users to perform data exploration
+    and preprocessing within a single package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    skimr,
+    moments
+Config/roxygen2/version: 8.0.0
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

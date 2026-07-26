@@ -111,7 +111,7 @@ devtools::install_github("hanawidati109/skimrID")
 ## Authors
 
 - Siti Hana Widati (24611058)
-- Salma Nurbayani (24611053)
+- Salma Nurbayani (24611063)
 - Aninditya Cantika Putri Ramadhani (24611035)
 
 Department of Statistics  
